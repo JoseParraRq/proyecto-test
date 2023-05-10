@@ -1,21 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { Suspense } from 'react';
+import RoutesApp from './routes/index-routes'; 
+import "primereact/resources/themes/lara-light-indigo/theme.css";    
+import "primereact/resources/primereact.min.css";
+import 'primeicons/primeicons.css';    
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         VALENTINA ACOSTA HOYOS identificada con cc 1192804809 eres el AMOR DE MI VIDA TE AMO MUCHISIMOOOOO
-        </a>
-      </header>
-    </div>
+    <Suspense>
+      <RoutesApp/>
+    </Suspense>
   );
 }
 
