@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         AMOR DE MI VIDA TE AMO MUCHISIMOOOOO
+         VALENTINA ACOSTA HOYOS identificada con cc 1192804809 eres el AMOR DE MI VIDA TE AMO MUCHISIMOOOOO
         </a>
       </header>
     </div>
